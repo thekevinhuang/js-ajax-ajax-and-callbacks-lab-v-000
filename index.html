@@ -20,6 +20,10 @@
   </head>
   <body>
     <main id="main">
+      <form >
+        <input type="text" id="searchTerms">
+      </form>
+      <a href="#" onclick="searchRepositories()">Search</a>
       <div id="errors"></div>
     </main>
     <div class="flexbox-container">
@@ -30,6 +34,12 @@
       <div>
         <h3>Details</h3>
         <div id="details"></div>
+      </div>
+      <div>
+        <h4>Errors</h4>
+        <div id="errors">
+
+        </div>
       </div>
     </div>
     <script src="jquery-3.1.0.min.js"></script>
