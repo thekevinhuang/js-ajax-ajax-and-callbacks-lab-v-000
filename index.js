@@ -1,8 +1,5 @@
 
 $(document).ready(function (){
-  let searchTerm = document.getElementById('searchTerms').value
-  let searchUrl = `https://api.github.com/search/repositories?q=${searchTerm}`
-  $.get(searchUrl, searchRepositories()).fail(displayError())
 });
 
 function displayError() {
