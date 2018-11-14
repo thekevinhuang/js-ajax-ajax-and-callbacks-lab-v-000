@@ -28,7 +28,7 @@ var renderSearchResult = (result) => {
   `
 }
 
-var renderSearchResults = (data) => data.items.map( result => renderSearchResults(result))
+var renderSearchResults = (data) => data.items.map( result => renderSearchResult(result))
 
 var searchRepositories = () =>{
   const searchTerms = $('#searchTerms').val()
